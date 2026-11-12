@@ -50,3 +50,15 @@ A PosteriorDB run writes marginal and joint comparison plots, a core-tensor chec
 ## Reproducibility
 
 Set `--seed` to fix the random seed. For comparable results, use the same dependency versions, device, and run parameters. Use `--sample_chunk_size` to limit peak memory during sampling; leaving it unset uses the default one-shot sampling path.
+
+## Citation
+
+If you use QuanVI in your work, please cite:
+
+```bibtex
+@article{cong2026quanvi,
+  title   = {QuanVI: Score-based Variational Inference via Quantum Maximally Mixed States},
+  author  = {Cong, Yuchen and Tao, Zerui and Li, Chao and Sun, Zhe and Zhao, Qibin},
+  journal = {arXiv preprint arXiv:2609.39164},
+  year    = {2026}
+}

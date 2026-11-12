@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+runs/
+outputs/
+*.pt
+*.pdf
+M_*.pt
+.DS_Store
